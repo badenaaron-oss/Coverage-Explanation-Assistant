@@ -1,1 +1,9 @@
-
+{
+  "coverage_status": "string",
+  "policy_clause_id": "string",
+  "policy_clause_text": "string",
+  "benefit_amount": "string (optional)",
+  "benefit_limit": "string (optional)",
+  "next_step": "string",
+  "standardized_disclaimer_text": "string"
+}
