@@ -1,5 +1,6 @@
 # 🛡️ Coverage Explanation Assistant
 ### A Constrained AI Communication Layer for Regulated Insurance Workflows
+A reference architecture showing how to safely use AI to explain insurance coverage decisions without allowing the AI to reinterpret policy logic.
 ## Project Scope
 
 This repository demonstrates an **architecture pattern**, not a production claims system.
