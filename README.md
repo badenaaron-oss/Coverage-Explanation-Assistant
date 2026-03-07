@@ -7,7 +7,7 @@ A reference architecture showing how to safely use AI to explain insurance cover
 
 ## How This Project Fits Into the AI Workflow
 
-This repository is part of a two-agent AI workflow for handling insurance claim inquiries safely.
+This repository is part 2 of a two-agent AI workflow for handling insurance claim inquiries safely.
 
 The system separates **data collection, sanitation, decision logic, and communication**.
 
