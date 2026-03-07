@@ -17,8 +17,8 @@ flowchart TD
 A[Policyholder Inquiry]
 
 subgraph AI Agent Layer
-B[1 Claim Intake Assistant]
-G[2 Coverage Explanation Assistant]
+B[AI Claim Intake Assistant]
+G[Coverage Explanation Assistant]
 end
 
 subgraph Data Safety Layer
