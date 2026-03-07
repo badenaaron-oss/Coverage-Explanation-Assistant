@@ -1,6 +1,9 @@
 # 🛡️ Coverage Explanation Assistant
 ### A Constrained AI Communication Layer for Regulated Insurance Workflows
+
 A reference architecture showing how to safely use AI to explain insurance coverage decisions without allowing the AI to reinterpret policy logic.
+
+---
 
 ## How This Project Fits Into the AI Workflow
 
@@ -48,11 +51,13 @@ class B,G agent
 classDef agent fill:#ffe599,stroke:#333,stroke-width:2px
 ```
 
+---
+
 ## Project Scope
 
 This repository demonstrates an **architecture pattern**, not a production claims system.
 
-What this project **does** demonstrate:
+### What this project **does** demonstrate
 
 - Safe AI communication layers for regulated decision systems
 - Separation between decision engines and AI explanations
@@ -60,7 +65,7 @@ What this project **does** demonstrate:
 - Stress testing for common AI failure modes
 - Structured input schemas for AI systems
 
-What this project **does NOT include**:
+### What this project **does NOT include**
 
 - A full insurance claims decision engine
 - Real policy rule logic
@@ -68,6 +73,9 @@ What this project **does NOT include**:
 - Live customer data
 
 The goal is to illustrate **safe design patterns for integrating AI into regulated workflows**.
+
+---
+
 ## System Architecture
 
 ```mermaid
@@ -84,11 +92,13 @@ D --> F[EMAIL_RESPONSE]
 D --> G[INTERNAL_SUMMARY]
 
 C -. internal data not exposed .-> H[(Fraud Flags / Risk Analytics)]
-
 H -. blocked from communication layer .-> D
+```
 
-### Related Project
+---
+
+## Related Project
 
 This system receives structured decision outputs generated after claim intake and validation by:
 
-- AI Claim Intake Assistant → collects and sanitizes claim information before it reaches the decision engine.
+- **AI Claim Intake Assistant** → collects and sanitizes claim information before it reaches the decision engine.
